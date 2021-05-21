@@ -1,18 +1,18 @@
 html{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Courier New', Courier, monospace;
     background: #274156;
     color: #FBFCFF;
     margin:5px 10px 15px 10px;
 }
 
 body{
-    max-width: 40rem;
+    max-width: 35rem;
     margin:1.5rem auto;
 }
 header{
     vertical-align:middle;
     background-color:#152A3D;
-    font-size:3rem;
+    font-size:1.2rem;
     padding-top: var(--bar-height);
     box-sizing: border-box;
     height:100px;
@@ -21,6 +21,7 @@ header{
     display: flex;
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */
+    font-style:bold;
 }
 
 
@@ -85,6 +86,7 @@ header{
         width:100%;
         cursor:pointer;
         box-sizing: border-box;
+        border-radius:1rem;
     }
 
     input:hover{
@@ -102,6 +104,7 @@ header{
         width:100%;
         cursor:pointer;
         color:gray;
+        border-radius:1rem;
     }
     select:hover{
         background: #9EA6A8;
@@ -118,6 +121,7 @@ header{
         color:white;
         font:inherit;
         font-size:small;
+        border-radius:1rem;
     }
     button:hover{
         background: #A0CED9;
@@ -143,11 +147,13 @@ ul{
 li{
     border:1px solid;
     padding: 1.5rem 1.5rem;
+    border-radius:1rem;
 }
 
 .numbers{
     font-size:1.5rem;
     margin-top:1.5rem;
+    font-style:bold;
 }
 .numbers div{
     display:flex;
@@ -159,6 +165,8 @@ li{
     cursor:pointer;
     color:white;
     margin-top:1rem;
+    font-style: bold;
+    border-radius:1rem;
 }
 
 .progresscircle{
@@ -228,6 +236,7 @@ button{
     font:inherit;
     margin-top:2rem;
     margin-right:1rem;
+    border-radius:1rem;
 }
 .stay{
     width:50%;
@@ -239,8 +248,13 @@ button{
     font:inherit;
     margin-top:2rem;
     margin-left:1rem;
+    border-radius: 1rem;
 }
 
 #congratulations{
     font-size:2rem;
+}
+
+h2{
+    font-size:1rem;
 }
