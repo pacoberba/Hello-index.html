@@ -1,0 +1,245 @@
+html{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: #274156;
+    color: #FBFCFF;
+    margin:5px 10px 15px 10px;
+}
+
+body{
+    margin:1.5rem 2rem 4rem 2rem;
+}
+header{
+    vertical-align:middle;
+    background-color:#152A3D;
+    font-size:70px;
+    padding-top: var(--bar-height);
+    box-sizing: border-box;
+    height:100px;
+    border-radius:1rem;
+    color:#FBFCFF;    
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
+
+.windows{
+    border:5px;
+    border-color:#152A3D;
+    border-style: solid;
+    box-sizing: border-box;
+    background-color:#152A3D;
+    border-radius:3rem;
+}
+
+.mainframes{
+    color:black;
+    display:flex;
+    justify-content:space-between;
+}
+.runningman{
+    margin-bottom:2rem;
+    margin-top: 1rem;
+    padding:1rem;
+    box-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-right:1%;
+    width: 30%;
+}
+
+.runninginputs{
+    /* /formatting */
+    margin-bottom:2rem;
+    margin-top: 1rem;   
+    margin-left:1%;
+    padding-left:1rem;
+    font-size:medium;
+    color:#FBFCFF;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    width:200%;
+    border:none;
+}
+
+
+.spacinginput{
+    margin:1.5rem;
+    padding-right:1.5rem;
+    font-size:150%;
+    color:#FBFCFF;
+    margin-left:2rem;
+}
+
+
+    input[type="number"]{
+        background-color:#C3D0D4;
+        border:none;
+        padding:1rem;
+        margin:0;
+        display:flex;
+        justify-items:space-between;
+        width:100%;
+        cursor:pointer;
+        box-sizing: border-box;
+    }
+
+    input:hover{
+        background:#9EA6A8;
+    }
+
+    select[name="moodinput"]{
+        background-color:#C3D0D4;
+        border:none;
+        padding:1rem;
+        margin:0;
+        display:flex;
+        justify-items:space-between;
+        box-sizing: border-box;
+        width:100%;
+        cursor:pointer;
+        color:gray;
+    }
+    select:hover{
+        background: #9EA6A8;
+        color:black;
+    }
+
+    button[type=submit]{
+        width:100%;
+        background-color:#12416D;
+        border:none;
+        padding:1rem;
+        margin-bottom:1.5rem;
+        cursor:pointer;
+        color:white;
+        font:inherit;
+        font-size:small;
+    }
+    button:hover{
+        background: #A0CED9;
+        color:black;
+   }
+
+/* UPPERTEXT */
+
+/* LOWER TEXT */
+
+h3{
+    font-size: 1.5rem;
+    text-align:center;
+}
+ul{
+    list-style:none;
+    padding:0;
+    display:flex;
+    justify-content:space-between;
+    margin:0;
+}
+
+li{
+    border:1px solid;
+    padding: 1.5rem 1.5rem;
+}
+
+.numbers{
+    font-size:1.5rem;
+    margin-top:1.5rem;
+}
+.numbers div{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color:#152A3D;
+    border:none;
+    padding:0rem 1rem;
+    cursor:pointer;
+    color:white;
+    margin-top:1rem;
+}
+
+.progresscircle{
+    display:flex;
+    justify-content: center;
+    text-align:center;
+
+}
+#circle{
+    height:250px;
+    width: 250px;
+    background: #152A3D;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#smallercircle{
+    height:210px;
+    width: 210px;
+    background-color:#274156;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+#percentage{
+    color:white;
+    font-size:2rem;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#completed{
+    margin-top:3rem;
+    text-align: center;
+    display:none;
+}
+
+.buttons{
+        display:flex;
+        justify-content:space-evenly;
+}
+
+button{
+    width:100%;
+    padding:1rem;
+    box-sizing: border-box;
+    background-color:#12416D;
+    border:none;
+    cursor:pointer;
+    color:white;
+    font:inherit;
+    margin:0;
+}
+.restart{
+    width:50%;
+    box-sizing: border-box;
+    background-color:#12416D;
+    border:none;
+    cursor:pointer;
+    color:white;
+    font:inherit;
+    margin-top:2rem;
+    margin-right:1rem;
+}
+.stay{
+    width:50%;
+    box-sizing: border-box;
+    background-color:#12416D;
+    border:none;
+    cursor:pointer;
+    color:white;
+    font:inherit;
+    margin-top:2rem;
+    margin-left:1rem;
+}
+
+#congratulations{
+    font-size:2rem;
+}
