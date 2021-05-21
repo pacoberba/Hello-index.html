@@ -78,17 +78,17 @@ function update(event){
     const entrymood = document.querySelector("#moodinput").value;
     if(!entrydistance) 
         {
-            alert("You have not filled up the form. Please complete the information before clicking Log In.");
+            alert("You have not filled up the form. Please complete the information before clicking Log Run.");
             return;
         }
         else if(!entrytime)
             {
-                alert("You have not filled up the form. Please complete the information before clicking Log In.");
+                alert("You have not filled up the form. Please complete the information before clicking Log Run.");
                 return;
             }
         else if(entrymood=="Select One")
             {
-                alert("3");
+                alert("You have not filled up the form. Please complete the information before clicking Log Run.");
                 return;
             }
         else{
