@@ -12,7 +12,7 @@ body{
 header{
     vertical-align:middle;
     background-color:#152A3D;
-    font-size:1.2rem;
+    font-size:0.3rem;
     padding-top: var(--bar-height);
     box-sizing: border-box;
     height:100px;
