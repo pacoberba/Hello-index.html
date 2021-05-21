@@ -225,6 +225,7 @@ button{
     color:white;
     font:inherit;
     margin:0;
+    border-radius:1rem;
 }
 .restart{
     width:50%;
