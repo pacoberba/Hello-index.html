@@ -55,7 +55,7 @@ function calculations(){
             congratulations();
             return;
         }
-    document.getElementById("percentage").innerText = completePercent + "%";
+    document.getElementById("percentage").innerText = completePercent.toFixed(0) + "%";
 }
     
 function goalTracker(){
